@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #pragma region Globals
-const char* ssid = "INTELBRAS";                           // WIFI network name
-const char* password = "redeserathiuk";                       // WIFI network password
+const char* ssid = "NOMEREDE";                           // WIFI network name
+const char* password = "SENHA";                       // WIFI network password
 uint8_t connection_state = 0;                    // Connected to WIFI or not
 ESP8266WebServer server(80);
 Servo servo; 
